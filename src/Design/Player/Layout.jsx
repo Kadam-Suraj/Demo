@@ -2,7 +2,7 @@ import Player from "./Player"
 import PlayerMenu from "./PlayerMenu"
 import PlayList from "./PlayList"
 import { IoIosArrowBack } from "react-icons/io"
-import Button from "../components/Button";
+import Button from "../Components/Button";
 import { BiSolidLock } from "react-icons/bi";
 import PlayerData from "./PlayerData";
 import Tabs from "./Tabs";
