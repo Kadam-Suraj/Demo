@@ -93,7 +93,7 @@ const PlayList = () => {
                                 item?.data.map((item, idx) => (
                                     <details key={idx} className="text-slate-900/85 p-2">
                                         <summary className="flex items-center gap-2">
-                                            <li>
+                                            <li className="flex items-center justify-between w-full">
                                                 {item.name}<span>{item.duration}</span>
                                             </li>
                                         </summary>
